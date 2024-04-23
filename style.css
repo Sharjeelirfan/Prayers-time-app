@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#main{
+    background-image:url(./bj-image.jpg);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.9;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sub-div{
+    text-align: center;
+}
+#sub-div h1{
+    color: #ffffff;
+    /* text-align: center; */
+    margin-top: 15px;
+    font-size: 50px;
+}
+#city-input{
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: 2px 4px 19px 3px rgb(88, 87, 87);
+    margin-top: 30px;
+    background-color: #EEDCAE;
+
+}
+#search-btn{
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 30px;
+    background-color: #EEDCAE;
+    padding: 5px 20px 5px 20px ;
+}
+#search-btn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+#search-btn:active{
+    border: none;
+}
+#tbl-div{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+table{
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 25px;
+    
+}
+th ,td{
+    border: 2px solid white;
+    padding: 8px;
+
+
+}
