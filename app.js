@@ -38,14 +38,22 @@ button.addEventListener('click', async () => {
     // console.log(result);
     
 
-    date.innerHTML =  `${result.data.date.hijri.year} ${result.data.date.hijri.day} - ${result.data.date.hijri.month.en}`
-    fajr.innerText = `${result.data.timings.Fajr}`
-    sunRise.innerText = `${result.data.timings.Sunrise}`
-    zuhar.innerText = `${result.data.timings.Dhuhr}`
-    asr.innerText = `${result.data.timings.Asr}`
-    maghrib.innerText = `${result.data.timings.Maghrib}`
-    isha.innerText = `${result.data.timings.Isha}`
+    let hijriDate =  `${result.data.date.hijri.year} ${result.data.date.hijri.day} - ${result.data.date.hijri.month.en}`
+    let fajrTime = `${result.data.timings.Fajr}`
+    let SunRise = `${result.data.timings.Sunrise}`
+    let zuharTime = `${result.data.timings.Dhuhr}`
+    let asrTime = `${result.data.timings.Asr}`
+    let maghribTime = `${result.data.timings.Maghrib}`
+    let ishaTime =  `${result.data.timings.Isha}`
+    
 
+    date.innerText =  `${hijriDate}`
+    fajr.innerText =  `${fajrTime} `
+    sunRise.innerText = `${SunRise}`
+    zuhar.innerText = `${zuharTime}`
+    asr.innerText = `${asrTime}`
+    maghrib.innerText = `${maghribTime}`
+    isha.innerText =`${ishaTime}`
 
     } else {
     alert('Please enter a city name');
