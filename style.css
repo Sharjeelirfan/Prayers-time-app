@@ -75,10 +75,10 @@ th ,td{
 
 
 
-@media (min-width:426px) and (max-width:767px){
+@media (min-width:426px) and (max-width:769px){
 
     #main{
-        height: 100vh;
+        height: 120vh;
         width: 100%;
     }
 
@@ -110,9 +110,9 @@ th ,td{
 }
 
 
-@media (min-width:375px) and (max-width:425px){
+@media (min-width:375px) and (max-width:426px){
     #main{
-        height: 120vh;
+        height: 115vh;
         width: 100%;
     }
 
@@ -144,9 +144,9 @@ th ,td{
 }
 
 
-@media (min-width:320px) and (max-width:374px){
+@media (min-width:319px) and (max-width:374px){
     #main{
-        height: 120vh;
+        height: 107vh;
         width: 100%;
     }
 
