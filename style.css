@@ -70,6 +70,108 @@ table{
 th ,td{
     border: 2px solid white;
     padding: 8px;
+}
 
 
+
+
+@media (min-width:426px) and (max-width:767px){
+
+    #main{
+        height: 100vh;
+        width: 100%;
+    }
+
+    #sub-div h1{
+        font-size: 30px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    #search-btn{
+        width: 80px;
+        margin-top: 20px;
+        font-size: 14px;
+        background-color: #EEDCAE;
+        padding: 5px 20px 5px 20px ;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        font-size: 20px;
+        
+        
+    }
+}
+
+
+@media (min-width:375px) and (max-width:425px){
+    #main{
+        height: 120vh;
+        width: 100%;
+    }
+
+    #sub-div h1{
+        font-size: 30px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 17px;
+    }
+
+    #search-btn{
+        width: 80px;
+        margin-top: 15px;
+        font-size: 14px;
+        background-color: #EEDCAE;
+        padding: 5px 20px 5px 20px ;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        font-size: 17px;
+        
+        
+    }
+}
+
+
+@media (min-width:320px) and (max-width:374px){
+    #main{
+        height: 120vh;
+        width: 100%;
+    }
+
+    #sub-div h1{
+        font-size: 30px;
+    }
+    
+    #city-input{
+        width: 280px;
+        font-size: 12px;
+        margin-top: 17px;
+    }
+
+    #search-btn{
+        width: 70px;
+        margin-top: 15px;
+        font-size: 10px;
+        background-color: #EEDCAE;
+        padding: 5px 18px 5px 18px ;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        font-size: 15px;
+    
+    }
 }
