@@ -45,7 +45,7 @@ button.addEventListener('click', async () => {
     let asrTime = `${result.data.timings.Asr}`
     let maghribTime = `${result.data.timings.Maghrib}`
     let ishaTime =  `${result.data.timings.Isha}`
-    
+
 
     date.innerText =  `${hijriDate}`
     fajr.innerText =  `${fajrTime} `
